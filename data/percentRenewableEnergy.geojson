@@ -1,0 +1,380 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "United States",
+                "CountryCode": "USA",
+                "GDPRank2015": 1,
+                "GDP2015": "18.036",
+                "perc_ren_1973": 0.139811113,
+                "perc_ren_1978": 0.15100745,
+                "perc_ren_1983": 0.262388528,
+                "perc_ren_1988": 0.444989962,
+                "perc_ren_1993": 2.13113884,
+                "perc_ren_1998": 1.825835904,
+                "perc_ren_2003": 2.018029181,
+                "perc_ren_2008": 3.092508621,
+                "perc_ren_2013": 6.315398319
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.445882,
+                    39.78373
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "China",
+                "CountryCode": "CHN",
+                "GDPRank2015": 2,
+                "GDP2015": "11.007",
+                "perc_ren_1973": 0,
+                "perc_ren_1978": 0,
+                "perc_ren_1983": 0,
+                "perc_ren_1988": 0,
+                "perc_ren_1993": 0.017056318,
+                "perc_ren_1998": 0.245310493,
+                "perc_ren_2003": 0.190344776,
+                "perc_ren_2008": 0.856350616,
+                "perc_ren_2013": 3.563043014
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.999927,
+                    35.000074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "Japan",
+                "CountryCode": "JPN",
+                "GDPRank2015": 3,
+                "GDP2015": "4.383",
+                "perc_ren_1973": 0.057801357,
+                "perc_ren_1978": 0.107570835,
+                "perc_ren_1983": 1.795433534,
+                "perc_ren_1988": 2.136913792,
+                "perc_ren_1993": 1.354476342,
+                "perc_ren_1998": 1.64249094,
+                "perc_ren_2003": 1.916580317,
+                "perc_ren_2008": 2.493089216,
+                "perc_ren_2013": 5.514747658
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.239418,
+                    36.574844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "Germany",
+                "CountryCode": "DEU",
+                "GDPRank2015": 4,
+                "GDP2015": "3.363",
+                "perc_ren_1973": 0.777877506,
+                "perc_ren_1978": 0.28238246,
+                "perc_ren_1983": 0.517816321,
+                "perc_ren_1988": 0.434282748,
+                "perc_ren_1993": 0.505658514,
+                "perc_ren_1998": 1.391446029,
+                "perc_ren_2003": 4.617107602,
+                "perc_ren_2008": 11.47671742,
+                "perc_ren_2013": 20.62055488
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.423447,
+                    51.08342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "United Kingdom",
+                "CountryCode": "GBR",
+                "GDPRank2015": 5,
+                "GDP2015": "2.858",
+                "perc_ren_1973": 0,
+                "perc_ren_1978": 0,
+                "perc_ren_1983": 0,
+                "perc_ren_1988": 0.000326058,
+                "perc_ren_1993": 0.440209535,
+                "perc_ren_1998": 0.977902343,
+                "perc_ren_2003": 1.871177046,
+                "perc_ren_2008": 4.333883395,
+                "perc_ren_2013": 13.7460141
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.276575,
+                    54.702355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "France",
+                "CountryCode": "FRA",
+                "GDPRank2015": 6,
+                "GDP2015": "2.418",
+                "perc_ren_1973": 0.438884871,
+                "perc_ren_1978": 0.298481063,
+                "perc_ren_1983": 0.269502538,
+                "perc_ren_1988": 0.236525964,
+                "perc_ren_1993": 0.420735265,
+                "perc_ren_1998": 0.527139607,
+                "perc_ren_2003": 0.733027371,
+                "perc_ren_2008": 1.819044606,
+                "perc_ren_2013": 4.589629974
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.888334,
+                    46.603354
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "India",
+                "CountryCode": "IND",
+                "GDPRank2015": 7,
+                "GDP2015": "2.095",
+                "perc_ren_1973": 0,
+                "perc_ren_1978": 0,
+                "perc_ren_1983": 0,
+                "perc_ren_1988": 0.002455796,
+                "perc_ren_1993": 0.027435603,
+                "perc_ren_1998": 0.224118662,
+                "perc_ren_2003": 1.054334649,
+                "perc_ren_2008": 2.741658857,
+                "perc_ren_2013": 4.984918055
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.667743,
+                    22.351115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "Italy",
+                "CountryCode": "ITA",
+                "GDPRank2015": 8,
+                "GDP2015": "1.821",
+                "perc_ren_1973": 2.671697379,
+                "perc_ren_1978": 2.201375932,
+                "perc_ren_1983": 1.883859219,
+                "perc_ren_1988": 1.990632319,
+                "perc_ren_1993": 1.728366971,
+                "perc_ren_1998": 2.072105813,
+                "perc_ren_2003": 3.561573016,
+                "perc_ren_2008": 5.275462719,
+                "perc_ren_2013": 20.57525121
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.674297,
+                    42.638426
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "Brazil",
+                "CountryCode": "BRA",
+                "GDPRank2015": 9,
+                "GDP2015": "1.774",
+                "perc_ren_1973": 1.158730649,
+                "perc_ren_1978": 1.181594798,
+                "perc_ren_1983": 1.836990904,
+                "perc_ren_1988": 1.553406189,
+                "perc_ren_1993": 1.96606026,
+                "perc_ren_1998": 2.334124843,
+                "perc_ren_2003": 3.281284738,
+                "perc_ren_2008": 4.46026169,
+                "perc_ren_2013": 8.244364218
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -53.2,
+                    -10.333333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "Canada",
+                "CountryCode": "CAN",
+                "GDPRank2015": 10,
+                "GDP2015": "1.550",
+                "perc_ren_1973": 0,
+                "perc_ren_1978": 0.330118662,
+                "perc_ren_1983": 0.511242429,
+                "perc_ren_1988": 0.491264002,
+                "perc_ren_1993": 0.916903613,
+                "perc_ren_1998": 1.313987918,
+                "perc_ren_2003": 1.677064569,
+                "perc_ren_2008": 1.731484602,
+                "perc_ren_2013": 2.661366537
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.554746,
+                    56.351445
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "Korea, Rep.",
+                "CountryCode": "KOR",
+                "GDPRank2015": 11,
+                "GDP2015": "1.377",
+                "perc_ren_1973": 0,
+                "perc_ren_1978": 0,
+                "perc_ren_1983": 0,
+                "perc_ren_1988": 0,
+                "perc_ren_1993": 0.002097389,
+                "perc_ren_1998": 0.029620168,
+                "perc_ren_2003": 0.064395628,
+                "perc_ren_2008": 0.293961954,
+                "perc_ren_2013": 0.835485256
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.937111,
+                    35.398501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "Australia",
+                "CountryCode": "AUS",
+                "GDPRank2015": 12,
+                "GDP2015": "1.339",
+                "perc_ren_1973": 0.524755088,
+                "perc_ren_1978": 0.472060983,
+                "perc_ren_1983": 0.408464987,
+                "perc_ren_1988": 0.528584031,
+                "perc_ren_1993": 0.417187385,
+                "perc_ren_1998": 0.546100636,
+                "perc_ren_2003": 1.056758523,
+                "perc_ren_2008": 3.215906333,
+                "perc_ren_2013": 5.257851631
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    134.755,
+                    -24.776109
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "Russian Federation",
+                "CountryCode": "RUS",
+                "GDPRank2015": 13,
+                "GDP2015": "1.331",
+                "perc_ren_1973": 0,
+                "perc_ren_1978": 0,
+                "perc_ren_1983": 0,
+                "perc_ren_1988": 0,
+                "perc_ren_1993": 0.006278108,
+                "perc_ren_1998": 0.007020185,
+                "perc_ren_2003": 0.041013728,
+                "perc_ren_2008": 0.047571769,
+                "perc_ren_2013": 0.045953579
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    97.745306,
+                    64.686314
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "Spain",
+                "CountryCode": "ESP",
+                "GDPRank2015": 14,
+                "GDP2015": "1.199",
+                "perc_ren_1973": 0.074015332,
+                "perc_ren_1978": 0.321504151,
+                "perc_ren_1983": 0.485361161,
+                "perc_ren_1988": 0.485626046,
+                "perc_ren_1993": 0.452910788,
+                "perc_ren_1998": 1.498510797,
+                "perc_ren_2003": 5.946065687,
+                "perc_ren_2008": 12.47001396,
+                "perc_ren_2013": 25.74057828
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.003104,
+                    40.002803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Country": "Mexico",
+                "CountryCode": "MEX",
+                "GDPRank2015": 15,
+                "GDP2015": "1,143,793,184,190.10",
+                "perc_ren_1973": 0.433962264,
+                "perc_ren_1978": 1.049306896,
+                "perc_ren_1983": 1.652478718,
+                "perc_ren_1988": 4.217108736,
+                "perc_ren_1993": 6.059422287,
+                "perc_ren_1998": 4.106336216,
+                "perc_ren_2003": 4.100071118,
+                "perc_ren_2008": 3.743156255,
+                "perc_ren_2013": 3.884825249
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.600932,
+                    23.687377
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,350 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "United States",
+        "CountryCode": "USA",
+        "perc_ff_1973": 94.97718869,
+        "perc_ff_1978": 91.74380612,
+        "perc_ff_1983": 89.45506708,
+        "perc_ff_1988": 87.07723872,
+        "perc_ff_1993": 86.11796479,
+        "perc_ff_1998": 86.08659433,
+        "perc_ff_2003": 86.27838541,
+        "perc_ff_2008": 84.9682249,
+        "perc_ff_2013": 83.27109002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.445882,
+          39.78373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "China",
+        "CountryCode": "CHN",
+        "perc_ff_1973": 61.32466204,
+        "perc_ff_1978": 69.63723212,
+        "perc_ff_1983": 69.60648101,
+        "perc_ff_1988": 74.23521668,
+        "perc_ff_1993": 76.46878729,
+        "perc_ff_1998": 79.01651938,
+        "perc_ff_2003": 83.1096953,
+        "perc_ff_2008": 86.4657959,
+        "perc_ff_2013": 88.13723309
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.999927,
+          35.000074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Japan",
+        "CountryCode": "JPN",
+        "perc_ff_1973": 97.34559991,
+        "perc_ff_1978": 93.39450472,
+        "perc_ff_1983": 87.43145523,
+        "perc_ff_1988": 84.73903951,
+        "perc_ff_1993": 82.36787977,
+        "perc_ff_1998": 79.23569584,
+        "perc_ff_2003": 84.06593637,
+        "perc_ff_2008": 82.99255116,
+        "perc_ff_2013": 94.57254619
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.239418,
+          36.574844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Germany",
+        "CountryCode": "DEU",
+        "perc_ff_1973": 97.62143893,
+        "perc_ff_1978": 95.1884251,
+        "perc_ff_1983": 91.65331348,
+        "perc_ff_1988": 86.91009483,
+        "perc_ff_1993": 86.00930916,
+        "perc_ff_1998": 84.92246199,
+        "perc_ff_2003": 83.18231409,
+        "perc_ff_2008": 80.80231443,
+        "perc_ff_2013": 81.10033533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.423447,
+          51.08342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "United Kingdom",
+        "CountryCode": "GBR",
+        "perc_ff_1973": 96.49958891,
+        "perc_ff_1978": 95.14016044,
+        "perc_ff_1983": 92.95642334,
+        "perc_ff_1988": 91.28950432,
+        "perc_ff_1993": 87.79016543,
+        "perc_ff_1998": 86.77063541,
+        "perc_ff_2003": 87.98005877,
+        "perc_ff_2008": 90.10046951,
+        "perc_ff_2013": 84.03561064
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.276575,
+          54.702355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "France",
+        "CountryCode": "FRA",
+        "perc_ff_1973": 90.26813077,
+        "perc_ff_1978": 87.26473417,
+        "perc_ff_1983": 72.29762216,
+        "perc_ff_1988": 59.39941239,
+        "perc_ff_1993": 54.1939774,
+        "perc_ff_1998": 54.79300946,
+        "perc_ff_2003": 52.69239834,
+        "perc_ff_2008": 50.80148886,
+        "perc_ff_2013": 48.35152706
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.888334,
+          46.603354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "India",
+        "CountryCode": "IND",
+        "perc_ff_1973": 35.45385218,
+        "perc_ff_1978": 37.34612905,
+        "perc_ff_1983": 43.99363659,
+        "perc_ff_1988": 51.38602816,
+        "perc_ff_1993": 56.91071492,
+        "perc_ff_1998": 62.21071254,
+        "perc_ff_2003": 64.52782165,
+        "perc_ff_2008": 69.05659877,
+        "perc_ff_2013": 72.44396304
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.667743,
+          22.351115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Italy",
+        "CountryCode": "ITA",
+        "perc_ff_1973": 94.54555309,
+        "perc_ff_1978": 93.49310257,
+        "perc_ff_1983": 92.52218785,
+        "perc_ff_1988": 92.90484374,
+        "perc_ff_1993": 92.27029006,
+        "perc_ff_1998": 92.28589095,
+        "perc_ff_2003": 91.34161083,
+        "perc_ff_2008": 89.95419143,
+        "perc_ff_2013": 79.9643667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.674297,
+          42.638426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Brazil",
+        "CountryCode": "BRA",
+        "perc_ff_1973": 49.29393185,
+        "perc_ff_1978": 56.37160663,
+        "perc_ff_1983": 49.6534027,
+        "perc_ff_1988": 49.97924017,
+        "perc_ff_1993": 53.26424997,
+        "perc_ff_1998": 57.34050814,
+        "perc_ff_2003": 54.64132844,
+        "perc_ff_2008": 52.56946061,
+        "perc_ff_2013": 58.02106809
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.2,
+          -10.333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Canada",
+        "CountryCode": "CAN",
+        "perc_ff_1973": 82.79334872,
+        "perc_ff_1978": 81.22728546,
+        "perc_ff_1983": 77.00906144,
+        "perc_ff_1988": 74.02295139,
+        "perc_ff_1993": 73.43413461,
+        "perc_ff_1998": 76.71365517,
+        "perc_ff_2003": 77.11976761,
+        "perc_ff_2008": 74.16554469,
+        "perc_ff_2013": 72.18464079
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.554746,
+          56.351445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Korea, Rep.",
+        "CountryCode": "KOR",
+        "perc_ff_1973": 99.4878755,
+        "perc_ff_1978": 97.79865977,
+        "perc_ff_1983": 94.49032439,
+        "perc_ff_1988": 85.4666552,
+        "perc_ff_1993": 86.92320801,
+        "perc_ff_1998": 84.15197468,
+        "perc_ff_2003": 82.21699509,
+        "perc_ff_2008": 81.1693777,
+        "perc_ff_2013": 84.16471753
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.937111,
+          35.398501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Australia",
+        "CountryCode": "AUS",
+        "perc_ff_1973": 92.09782489,
+        "perc_ff_1978": 92.6549894,
+        "perc_ff_1983": 92.84942864,
+        "perc_ff_1988": 93.57842828,
+        "perc_ff_1993": 93.75834561,
+        "perc_ff_1998": 93.87865071,
+        "perc_ff_2003": 93.88602451,
+        "perc_ff_2008": 94.34729003,
+        "perc_ff_2013": 93.89566844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.755,
+          -24.776109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Russian Federation",
+        "CountryCode": "RUS",
+        "perc_ff_1973": 0.00,
+        "perc_ff_1978": 0.00,
+        "perc_ff_1983": 0.00,
+        "perc_ff_1988": 0.00,
+        "perc_ff_1993": 92.39524702,
+        "perc_ff_1998": 92.11536568,
+        "perc_ff_2003": 90.91553397,
+        "perc_ff_2008": 90.94748677,
+        "perc_ff_2013": 90.72256994
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.745306,
+          64.686314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Spain",
+        "CountryCode": "ESP",
+        "perc_ff_1973": 92.18236471,
+        "perc_ff_1978": 91.67016715,
+        "perc_ff_1983": 92.00145714,
+        "perc_ff_1988": 79.30422987,
+        "perc_ff_1993": 77.6916953,
+        "perc_ff_1998": 79.52609681,
+        "perc_ff_2003": 80.82302302,
+        "perc_ff_2008": 81.80831582,
+        "perc_ff_2013": 72.79219586
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.003104,
+          40.002803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Mexico",
+        "CountryCode": "MEX",
+        "perc_ff_1973": 85.22364367,
+        "perc_ff_1978": 88.71850495,
+        "perc_ff_1983": 90.0872829,
+        "perc_ff_1988": 88.41359705,
+        "perc_ff_1993": 86.65423948,
+        "perc_ff_1998": 86.77604033,
+        "perc_ff_2003": 88.27601629,
+        "perc_ff_2008": 88.54951171,
+        "perc_ff_2013": 90.37982668
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.600932,
+          23.687377
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+/* Stylesheet by Allison K. Smith, 2017 */
+
+ #map {
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+}
+
+#panel {
+    width: 16%;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 42px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: ;
+  font-weight: 700;
+  text-align: center;
+}
+
+.range-slider-container{
+    position: absolute;
+    bottom: 0;
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px; 
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.timestamp-container {
+    position: absolute;
+    bottom:0;
+    left: 375px;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px; 
+    text-align: center;
+    border: solid gray 1px;
+    font-size: 16px;
+}
+
+.range-slider{
+    width: 200px;
+}
+
+.legend-control-container{
+    width: 100 px;
+    height: 30 px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px; 
+    text-align: center;
+    border: solid gray 1px;
+}
+
+#label{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    font-size: 14px;
+}
+
+#detail{
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    font-size: 14px;
+}
+
+#forward{
+    float:right;
+    
+}
+
+#reverse {
+    float:left;
+}
+
+
+
+.leaflet-popup-content p {
+	margin: 5px 0;
+	}
