@@ -5,7 +5,8 @@ function createMap(){
     var ren = new L.geoJson().addTo(map);
     var fos = new L.geoJson();
     
-    getData(map, ren, fos);
+    getFos(map, ren, fos);
+    getRen(map, ren, fos);
     
 
     // open street map tiles
@@ -136,6 +137,7 @@ function createPropSymbolsFos(data, fos, attributes){
             return pointToLayer(feature, latlng, attributes);
         }
     }).addTo(fos);
+    return fosSize;
 };
 
 //SEQUENCING CONTROLS
@@ -404,7 +406,7 @@ function processData(data){
 };
 
 //function to retrieve the renewable energy data and place it on the map
-function getData(map, ren, fos){
+function getFos(map, ren, fos){
     //load the data
     $.ajax("data/percentFosFuels.geojson", {
         dataType: "json",
@@ -417,6 +419,8 @@ function getData(map, ren, fos){
             //createSequenceControls(map, fos, ren, attributes);
         }
     });
+};
+function getRen(map, ren, fos){
     $.ajax("data/percentRenewableEnergy.geojson", {
         dataType: "json",
         success: function(response){
