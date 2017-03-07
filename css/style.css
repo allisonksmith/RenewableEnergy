@@ -4,6 +4,10 @@
     height: 500px;
     width: 100%;
     display: inline-block;
+    align-items: center;
+}
+body {
+    background-color: #636363;
 }
 
 #panel {
@@ -15,21 +19,41 @@
     line-height: 42px;
 }
 
+.leaflet-control-layers{
+    position
+    background-color: rgba(255,255,255,0.8);
+    fill-opacity: 0.8;
+    border-radius: 0;
+    outline: solid gray 1px;
+}
+
+
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+	font: bold 18px 'Lucida Console', Monaco, monospace;
+	text-indent: 1px;
+    border-radius: 0px;
+	}
+.leaflet-control-zoom-out {
+	font-size: 20px;
+    border-radius: 0px;
+	}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: ;
-  font-weight: 700;
-  text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
 }
 
 .range-slider-container{
-    position: absolute;
-    bottom: 0;
+    bottom: 40px;
     width: 350px;
     height: 30px;
     background-color: rgba(255,255,255,0.8);
@@ -37,24 +61,25 @@ h6 {
     line-height: 45px; 
     text-align: center;
     border: solid gray 1px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
 }
 
 .timestamp-container {
-    position: absolute;
-    bottom:0;
-    left: 375px;
+    top:260px;
     width: 100px;
     height: 30px;
     background-color: rgba(255,255,255,0.8);
-    padding: 10px;
+    padding-bottom: 15px;
     line-height: 45px; 
     text-align: center;
     border: solid gray 1px;
     font-size: 16px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
 }
 
 .range-slider{
     width: 200px;
+    display: inline-block;
 }
 
 .legend-control-container{
@@ -65,6 +90,7 @@ h6 {
     line-height: 45px; 
     text-align: center;
     border: solid gray 1px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
 }
 
 #label{
@@ -95,3 +121,7 @@ h6 {
 .leaflet-popup-content p {
 	margin: 5px 0;
 	}
+
+.leaflet-control-attribution{
+    font-size: 7px;
+}

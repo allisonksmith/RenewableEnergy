@@ -2,8 +2,14 @@
 function createMap(){
 
     var map = L.map('map').setView([20,0], 2);
-    var ren = new L.geoJson().addTo(map);
+    var ren = new L.geoJson();
     var fos = new L.geoJson();
+    
+    // create attribution following world bank guidelines
+    fos.getAttribution = function(){return 'Fossil Fuels: Based on IEA data from IEA Statistics &copy; OECD/IEA [2014], www.iea.org/statistics, Licence: www.iea.org/t&c; as modified by Allison K Smith'; }; 
+    ren.getAttribution = function(){return 'Renewable Energy: Based on IEA data from IEA World Energy Balences &copy; OECD/IEA [2013], www.iea.org/statistics, Licence: www.iea.org/t&c; as modified by Allison K Smith'; }; 
+    
+    ren.addTo(map);
     
     getFos(map, ren, fos);
     getRen(map, ren, fos);
@@ -32,9 +38,12 @@ function createMap(){
     };
 
     // create layer control panel to switch on and off 
-    L.control.layers(baseLayers, overlays).addTo(map);
+    L.control.layers(baseLayers, overlays, {collapsed:false}).addTo(map);
     return map;
+    
 };
+
+
 
 
 // attach popup to each feature
@@ -208,7 +217,7 @@ function createSequenceControls(map, ren, fos, attributes){
 function createTemporalLegend(map, attributes){
     var LegendControl = L.Control.extend({
         options:{
-            position: 'bottomleft'
+            position: 'topleft'
         },
         
         onAdd: function (map) {
@@ -451,7 +460,7 @@ function updatePropSymbolsRen(renSize, map, attribute){
             //call the create popup function 
             createPopUp(prop, attribute, layer, rad);
             updateLegendRen(map, attribute);
-            $(".timestamp-container").text("Year:" + attribute.split("_")[2]);
+            $(".timestamp-container").text("Year: " + attribute.split("_")[2]);
         }
     });
 };
@@ -479,15 +488,15 @@ function updatePropSymbolsFos(fosSize, map, attribute){
 //function to create popup content 
 function createPopUp(properties, attribute, layer, radius){
     //create popup content variable and add country name to it
-    var popupContent = "<p><b>Country:</b>" + properties.Country + "</p>";
+    var popupContent = " ";
     // get the year by slitting the field name at the "_" character and taking the 3rd item
     var year = attribute.split("_")[2];
     // if the attribute includes ren it is renewable energy and should be labeled as such
     // if the attribute includes ff it is fossil fuels 
     if (attribute.includes("ren")){
-        popupContent += "<p><b>Percent of Electricity Production from Renewable Sources " + year + ":</b> " + properties[attribute]+ "% </p>";
+        popupContent +=  "<p style='font-size:16px'> <b> " + properties.Country + "</b> | " + Math.round(properties[attribute]*100)/100+ "% </p>" + "<p style='font-size:11px'>of energy produced was from <br><b>Renewable Sources</b> in " + year + ". </p>"
     } else if (attribute.includes("ff")){
-        popupContent += "<p><b>Percent of Electricity Production from Fossil Fuels " + year + ":</b> " + properties[attribute]+ "% </p>";
+        popupContent += "<p style='font-size:16px'> <b> " + properties.Country + "</b> | "  + Math.round(properties[attribute]*100)/100+ "% </p>" + "<p style='font-size:11px'>of energy consumed was from <br><b>Fossil Fuels</b> in " + year + ". </p>"
     }
     //bind the popup to the layer and offset from the radius of the circle
     layer.bindPopup(popupContent, {
