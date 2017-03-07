@@ -3,13 +3,11 @@ function createMap(){
 
     var map = L.map('map').setView([20,0], 2);
     var ren = new L.geoJson();
-    var fos = new L.geoJson();
+    var fos = new L.geoJson().addTo(map);
     
     // create attribution following world bank guidelines
     fos.getAttribution = function(){return 'Fossil Fuels: Based on IEA data from IEA Statistics &copy; OECD/IEA [2014], www.iea.org/statistics, Licence: www.iea.org/t&c; as modified by Allison K Smith'; }; 
     ren.getAttribution = function(){return 'Renewable Energy: Based on IEA data from IEA World Energy Balences &copy; OECD/IEA [2013], www.iea.org/statistics, Licence: www.iea.org/t&c; as modified by Allison K Smith'; }; 
-    
-    ren.addTo(map);
     
     getFos(map, ren, fos);
     getRen(map, ren, fos);
@@ -37,6 +35,8 @@ function createMap(){
         "Fossil Fuels": fos
     };
 
+    ren.addTo(map);
+    
     // create layer control panel to switch on and off 
     L.control.layers(baseLayers, overlays, {collapsed:false}).addTo(map);
     return map;
